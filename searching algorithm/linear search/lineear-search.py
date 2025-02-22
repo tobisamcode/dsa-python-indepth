@@ -7,7 +7,7 @@ def linearsearch (arr, key):
     return -1
 
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-key = 5
+key = 500
+found = linearsearch(arr, key)
 
-
-print(linearsearch(arr, key))
+print('Result: ', found )
